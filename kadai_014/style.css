@@ -1,0 +1,44 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family:"Arial","Meiryo",sans-serif;
+}
+
+.first-heading {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 48px;
+  text-shadow:3px 3px gray;
+  border-bottom:3px solid; rgb(115, 115, 114)）;
+}
+
+.parts-skyblue {
+  color: skyblue;
+}
+
+.parts-pink {
+  color: rgb(255, 192, 203);
+}
+
+div p {
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.text-skyblue {
+  color: skyblue;
+  text-align: center;
+}
+
+.text-pink {
+  color: rgb(255, 192, 203);
+  text-align: center;
+}
+
