@@ -1,0 +1,95 @@
+ 
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
+header {
+  background-color:  rgb(244, 79, 79);
+  text-align: center;
+}
+
+main {
+  margin: 10px;
+}
+
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contents {
+  border: 3px solid rgb(238, 204, 204);
+  flex-basis: 25%;
+  padding: 10px 15px;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+  .contents h2 {
+    font-size: 25px;
+    border-bottom: 3px dotted rgb(236, 122, 122);
+  }
+
+  h2::before {
+    content: "●";
+    color: rgb(239, 111, 139)
+  }
+
+  .contents img {
+    margin: 10px 0;
+    width: 70%;
+  }
+
+  p:nth-of-type(2)::first-letter {
+    font-weight: bold;
+      color:rgb(97, 206, 249); 
+  }
+
+  footer {
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+  }
+
+  a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  a:hover {
+    color:rgb(245, 178, 168);
+  }
+
+  a:visited {
+    color: rgb(193, 234, 251);
+  }
+
+/* 画面幅768px以下になったら下記を読み込む */
+
+@media screen and (max-width:768px) {
+  #parent {
+    display: block;
+  }
+}
+
+  @media screen and (max-width:768px) {
+      h2 {
+      font-size: 30px;
+      }
+    }
+
+  @media screen  and (max-width:768px) {
+    p {
+      font-size: 25px;
+    }
+  }
